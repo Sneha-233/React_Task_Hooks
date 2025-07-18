@@ -1,4 +1,5 @@
 import React from "react";
+<<<<<<< HEAD
 import {BrowserRouter as Router,Routes,Route} from 'react-router-dom';
 import Home from "./Home";
 import About from "./about";
@@ -33,3 +34,50 @@ function App() {
 }
 
 export default App;
+=======
+
+const App=(props)=>{
+
+  return(
+
+
+    <>
+    <center>
+    <div style={{width:"30%",textAlign:"center",border:"2px solid black"
+    }}>
+      <h1 >Profile Card</h1>
+      <hr/>
+      <h2>Name:{props.name}</h2>
+      <h2>Age:{props.age}</h2>
+      <h2>Location:{props.location}</h2>
+    </div>
+    </center>
+    </>
+  )
+}
+
+export default App
+
+
+
+
+// import React from "react";
+// import A from "./a";
+// const App=()=>{
+//   return(
+
+
+
+//     <>
+    
+//     <h1>hiii this is a parent component</h1><hr/>
+//     <A    name='Sneha'
+//           age={22}
+//     />
+    
+//     </>
+//   )
+// }
+
+// export default App
+>>>>>>> aaa3a97 (hooks_3 push)
